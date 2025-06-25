@@ -20,13 +20,13 @@ This project tackles the famous Titanic dataset from [Kaggle](https://www.kaggle
 
 ### Custom Implementation:
 
-**Entropy calculation**: Entropy(S) = -Σ(p_i * log₂(p_i))
-**Information Gain**: IG = Entropy(Parent) - Σ(|S_v|/|S| * Entropy(S_v))
-Recursive tree building with optimal feature splits
+-**Entropy calculation**: Entropy(S) = -Σ(p_i * log₂(p_i))
+-**Information Gain**: IG = Entropy(Parent) - Σ(|S_v|/|S| * Entropy(S_v))
+-Recursive tree building with optimal feature splits
 
 # Requirements
 
-pandas
-numpy
-scikit-learn
-matplotlib
+-pandas
+-numpy
+-scikit-learn
+-matplotlib
